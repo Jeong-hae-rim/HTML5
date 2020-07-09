@@ -284,7 +284,7 @@
 - 태그(preformatted text) 내에 작성된 텍스트의 모든 띄어쓰기와 줄 나누기는 웹 브라우저에 그대로 표현된다.
   
 <pre> 태그 내에 작성된 텍스트의 글꼴(font)은 **고정폭 글꼴(fixed-width font)**로 자동변환된다.
-  
+
   ```html
   <!DOCTYPE html>
   <html lang="ko">
@@ -306,8 +306,8 @@
   </body>
   
   </html>
-```
-  
+  ```
+
   ![결과 6](C:\git_repo\HTML5\90\media\result6.PNG)
 
 #### 수평 가로 구분선
@@ -2886,10 +2886,116 @@
   </html>
   ```
 
-  ![결과 67](C:\git_repo\HTML5\90\media\result67.PNG)
+  ![결과 67](C:\git_repo\HTML5\90\media\result67.gif)
 
 #### disabled 속성
 
 - 사용자가 입력 필드를 아예 사용할 수 없도록 설정
+
 - disabled 속성이 설정된 입력 필드는 사용할 수도 없고, 클릭할 수도 없음
-- readonly 속성과는 다르게 전송 버튼을 눌러도 
+
+- readonly 속성과는 다르게 전송 버튼(submit)을 눌러도 초깃값이 서버로 전송되지 않음
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title> HTML Input Attributes</title>
+  </head>
+  <body>
+  	<h1>disabled 속성을 이용한 필드 사용 제한</h1>
+  	<form action="/examples/media/request.php">
+  		이름 : <br>
+  		<input type="text" name="student_name"><br>
+  		학번 : <br>
+  		<input type="text" name="student_id"><br>
+  		학과 : <br>
+  		<input type="text" name="department" value="컴퓨터공학과" disabled><br><br>
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![결과 68](C:\git_repo\HTML5\90\media\result68.gif)
+
+#### maxlength 속성
+
+- maxlength 속성은 입력 필드에 입력할 수 있는 문자의 최대 길이(length)를 설정
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML Input Attributes</title>
+  </head>
+  <body>
+  	<h1>maxlength 속성을 이용한 필드의 최대 길이 설정</h1>
+  	<form action="/examples/media/request.php">
+  		이름 : (이름은 10자까지만 가능해요!)<br>
+  		<input type="text" name="student_name" value="홍길동" maxlength="10"><br>
+  		학번 : <br>
+  		<input type="text" name="student_id"><br><br>
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![결과 69](C:\git_repo\HTML5\90\media\result69.gif)
+
+#### size 속성
+
+- 입력 필드에 보여지는 input 요소의 크기(size) 설정
+
+- maxlength 속성과는 달리 입력 필드가 한 번에 보여줄 수 있는 문자의 최대 개수만을 의미
+
+- 따라서 입력될 수 있는 문자의 최대 길이는 maxlength 속성값에 따라 달라짐(size 속성과는 무관)
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML Input Attributes</title>
+  </head>
+  <body>
+  	<h1>size 속성을 이용한 필드의 크기 설정</h1>
+  	<form action="/examples/media/request.php">
+  		이름 : <br>
+  		<input type="text" name="student_name" value="홍길동" size="30"><br>
+  		학번 : <br>
+  		<input type="text" name="student_id"><br><br>
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+  
+  
+
+#### HTML5에서 추가된 form 요소의 속성
+
+- autocomplete
+- novalidate
+
+#### HTML5에서 추가된 input 요소의 속성
+
+- autocomplete
+- autofocus
+- form
+- formaction
+- formenctype
+- formmethod
+- formnovalidate
+- formtarget
+- height and width
+- list
+- min and max
+- multiple
+- pattern (정규식)
+- placeholder
+- required
+- step
