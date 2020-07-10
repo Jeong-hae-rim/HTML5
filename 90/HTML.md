@@ -44,7 +44,7 @@
     </html>
     ```
 
-    ![실행화면 1](C:\git_repo\HTML5\90\media\result1.png)
+    ![result1](https://user-images.githubusercontent.com/58800295/87107718-795bcc00-c29b-11ea-812a-0932d8adcf61.png)
 
 - HTML 태그(tag)
 
