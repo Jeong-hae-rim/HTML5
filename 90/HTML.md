@@ -62,7 +62,7 @@
     우리 모두는 <strong>자신의 힘</strong>으로 발견한 내용을 가장 쉽게 익힌다. (도널드 커누스)
     ```
 
-    ![결과2](C:\git_repo\HTML5\90\media\result2.PNG)
+    <img alt="result2" src="https://user-images.githubusercontent.com/58800295/87107834-c344b200-c29b-11ea-98e3-594217fd3929.PNG">
 
   - HTML 태그는 보통 **시작 태그**(start tag, opening tag)와 **종료 태그**(end tag, closing tag) 한 쌍으로 구성된다.
 
@@ -87,7 +87,7 @@
 
 다음은 HTML 문서의 기본적인 구조를 보여주는 그림이다.
 
-![구조 1](C:\git_repo\HTML5\90\media\structure.png)
+<img alt="structure" src="https://user-images.githubusercontent.com/58800295/87107868-d6578200-c29b-11ea-876f-a74e5443485e.PNG">
 
 - ```html
   <!DOCTYPE html> <!-- 현재 문서가 HTML5문서임을 명시한다. -->
@@ -136,7 +136,7 @@
 
   - HTML 요소는 시작 태그로 시작해서 종료 태그로 끝난다.
 
-    <img src="C:\git_repo\HTML5\90\media\structure2.PNG" alt="구조 2" />
+    <img alt="structure2" src="https://user-images.githubusercontent.com/58800295/87107883-e2dbda80-c29b-11ea-888d-9c7beba03bcf.PNG">
 
   - 속성은 HTML 요소 중에서도 **언제나 시작 태그 내에서만 정의**된다.
 
@@ -185,7 +185,7 @@
     </html>
     ```
 
-    <img src="C:\git_repo\HTML5\90\media\result3.PNG" alt="결과3"/>
+    <img alt="result3" src="https://user-images.githubusercontent.com/58800295/87107913-eff8c980-c29b-11ea-9d90-11f41504a676.PNG">
 
   - 위 예제처럼 속성 값에 띄어쓰기가 들어가게 되면 반드시 따옴표를 사용해야 정확한 값을 지정할 수 있다.
 
@@ -222,7 +222,7 @@
   </html>
   ```
 
-  ![결과4](C:\git_repo\HTML5\90\media\result4.PNG)
+  <img alt="result4" src="https://user-images.githubusercontent.com/58800295/87107951-0dc62e80-c29c-11ea-9e10-a347980e39c8.PNG">
 
 - h 태그는 제목의 표현이라는 기능 외에도 또 다른 중요한 역할을 한다.
   - 여러 검색 엔진들이 **h 태그를 이용해 키워드를 수집하고 내용을 파악**
@@ -264,7 +264,7 @@
 </html>
 ```
 
-![결과 5](C:\git_repo\HTML5\90\media\result5.PNG)
+<img alt="result5" src="https://user-images.githubusercontent.com/58800295/87107986-220a2b80-c29c-11ea-9406-e9af2d64e365.PNG">
 
 #### 띄어쓰기와 줄 나누기
 
@@ -308,7 +308,7 @@
   </html>
   ```
 
-  ![결과 6](C:\git_repo\HTML5\90\media\result6.PNG)
+  <img alt="result6" src="https://user-images.githubusercontent.com/58800295/87108022-3e0dcd00-c29c-11ea-8a8b-fae73647a136.PNG">
 
 #### 수평 가로 구분선
 
@@ -338,7 +338,7 @@
   </html>
   ```
 
-  ![결과 7](C:\git_repo\HTML5\90\media\result7.PNG)
+  <img alt="result7" src="https://user-images.githubusercontent.com/58800295/87108049-4cf47f80-c29c-11ea-93a1-30cdbde72f28.PNG">
 
 
 
@@ -368,7 +368,7 @@
   </html>
   ```
 
-  ![결과 8](C:\git_repo\HTML5\90\media\result8.PNG)
+  <img alt="result8" src="https://user-images.githubusercontent.com/58800295/87108095-6990b780-c29c-11ea-9327-473ad250d2f5.PNG">
 
 - <b> 태그는 **단순히 화면의 텍스트를 굵게 표현**해준다.
 
@@ -398,7 +398,7 @@
   </html>
   ```
 
-  ![결과 9](C:\git_repo\HTML5\90\media\result9.PNG)
+  <img alt="result9" src="https://user-images.githubusercontent.com/58800295/87108133-7d3c1e00-c29c-11ea-897b-1e84627754bd.PNG">
 
 - 검색 엔진은 **<strong>태그와 <em>태그를 사용하여 강조된 텍스트를 더 중요하게 인식**한다.
 
@@ -425,7 +425,7 @@
   </html>
   ```
 
-  ![결과 10](C:\git_repo\HTML5\90\media\result10.PNG)
+  <img alt="result10" src="https://user-images.githubusercontent.com/58800295/87108146-862cef80-c29c-11ea-9e77-0c9a73883016.PNG">
 
 #### 삭제 효과
 
@@ -450,7 +450,7 @@
   </html>
   ```
 
-  ![결과 11](C:\git_repo\HTML5\90\media\result11.PNG)
+  <img alt="result11" src="https://user-images.githubusercontent.com/58800295/87108187-a492eb00-c29c-11ea-99ef-b31b837b5e53.PNG">
 
 #### 삽입 효과
 
@@ -475,7 +475,7 @@
   </html>
   ```
 
-  ![결과 12](C:\git_repo\HTML5\90\media\result12.PNG)
+  <img alt="result12" src="https://user-images.githubusercontent.com/58800295/87108206-af4d8000-c29c-11ea-856d-cc9840da666b.PNG">
 
 #### 위첨자와 아래첨자 효과
 
@@ -501,7 +501,7 @@
   </html>
   ```
 
-  ![결과 13](C:\git_repo\HTML5\90\media\result13.PNG)
+  <img alt="result13" src="https://user-images.githubusercontent.com/58800295/87108219-b96f7e80-c29c-11ea-9a7a-cf6098c0764f.PNG">
 
 
 
@@ -532,7 +532,7 @@
   </html>
   ```
 
-  ![결과 14](C:\git_repo\HTML5\90\media\result14.PNG)
+  <img alt="result14" src="https://user-images.githubusercontent.com/58800295/87108231-c7250400-c29c-11ea-8f3b-419c62d79ef2.PNG">
 
 #### 블록 인용구
 
@@ -562,7 +562,7 @@
   </html>
   ```
 
-  ![결과 15](C:\git_repo\HTML5\90\media\result15.PNG)
+  <img alt="result15" src="https://user-images.githubusercontent.com/58800295/87108247-d1470280-c29c-11ea-8a91-451bb84d4d35.PNG">
 
 #### 축약형 표현
 
@@ -591,7 +591,7 @@
   </html>
   ```
 
-  ![결과 16](C:\git_repo\HTML5\90\media\result16.png)
+  ![result16](https://user-images.githubusercontent.com/58800295/87108267-dc9a2e00-c29c-11ea-9f2c-9785fbb75292.png)
 
 #### 주소표현
 
@@ -621,7 +621,7 @@
 
 - 주소는 이탤릭체로 표현되며 위 아래로 약간의 공백이 자동으로 삽입된다.
 
-  ![결과 17](C:\git_repo\HTML5\90\media\result17.PNG)
+  <img alt="result17" src="https://user-images.githubusercontent.com/58800295/87108288-e885f000-c29c-11ea-8749-47348bd9a01f.PNG">
 
 
 
@@ -672,7 +672,7 @@
   </html>
   ```
 
-  ![결과 18](C:\git_repo\HTML5\90\media\result18.PNG)
+  <img alt="result18" src="https://user-images.githubusercontent.com/58800295/87108304-f2a7ee80-c29c-11ea-8f5d-2439a89d2006.PNG">
 
 - 위의 예제처럼 HTML 주석 안에 또 다른 주석을 삽입할 시 삽입한 주석의 종료 태그를 첫 번째 주석이 자신의 종료 태그로 인식
 
@@ -715,7 +715,7 @@
   </html>
   ```
 
-  ![결과 19](C:\git_repo\HTML5\90\media\result19.PNG)
+  <img alt="result19" src="https://user-images.githubusercontent.com/58800295/87108319-fe93b080-c29c-11ea-8dda-1d8f00df5672.PNG">
 
 - 위처럼 HTML 코드에서 사용된 꺽쇠괄호(<>)는 HTML 태그의 시작과 끝의 의미로 해석됨
 
@@ -826,7 +826,7 @@
 </html>
 ```
 
-![결과 20](C:\git_repo\HTML5\90\media\result20.PNG)
+<img alt="result20" src="https://user-images.githubusercontent.com/58800295/87108340-0bb09f80-c29d-11ea-80f5-70db7851903c.PNG">
 
 #### 글자색 변경
 
@@ -850,7 +850,7 @@
 </html>
 ```
 
-![결과 21](C:\git_repo\HTML5\90\media\result21.PNG)
+<img alt="result21" src="https://user-images.githubusercontent.com/58800295/87108356-1703cb00-c29d-11ea-833b-f7a9614df88a.PNG">
 
 #### 글자 크기 변경
 
@@ -874,7 +874,7 @@
 </html>
 ```
 
-![결과 22](C:\git_repo\HTML5\90\media\result22.PNG)
+<img alt="result22" src="https://user-images.githubusercontent.com/58800295/87108378-22ef8d00-c29d-11ea-8888-924f453d88c1.PNG">
 
 #### 문단 정렬 변경
 
@@ -898,7 +898,7 @@
 </html>
 ```
 
-![결과23](C:\git_repo\HTML5\90\media\result23.PNG)
+<img alt="result23" src="https://user-images.githubusercontent.com/58800295/87108538-88dc1480-c29d-11ea-8d55-ff581ee1c982.PNG">
 
 #### 여러 스타일의 설정
 
@@ -922,7 +922,7 @@
 </html>
 ```
 
-![결과 24](C:\git_repo\HTML5\90\media\result24.PNG)
+<img alt="result24" src="https://user-images.githubusercontent.com/58800295/87108542-8aa5d800-c29d-11ea-9abb-be685bdbeaf4.PNG">
 
 
 
@@ -938,7 +938,7 @@
 
 #### 색상 이름으로 표현
 
-![색상](C:\git_repo\HTML5\90\media\color.PNG)
+<img alt="color" src="https://user-images.githubusercontent.com/58800295/87108602-a7daa680-c29d-11ea-8e1d-59e52ce69ee8.PNG">
 
 ```html
 <!DOCTYPE html>
@@ -962,7 +962,7 @@
 </html>
 ```
 
-![결과25](C:\git_repo\HTML5\90\media\result25.PNG)
+<img alt="result25" src="https://user-images.githubusercontent.com/58800295/87108546-8c6f9b80-c29d-11ea-90c2-d4c0c2f96377.PNG">
 
 - 현재는 주요 브라우저가 140개의 색상 이름을 모두 지원
 
@@ -996,7 +996,7 @@
   </html>
   ```
 
-  ![결과 26](C:\git_repo\HTML5\90\media\result26.PNG)
+  <img alt="result26" src="https://user-images.githubusercontent.com/58800295/87108551-8da0c880-c29d-11ea-8a95-8d8b11cac48c.PNG">
 
 #### 16진수 색상값으로 표현
 
@@ -1028,7 +1028,7 @@
   </html>
   ```
 
-  ![결과 27](C:\git_repo\HTML5\90\media\result27.PNG)
+  <img alt="result27" src="https://user-images.githubusercontent.com/58800295/87108553-8ed1f580-c29d-11ea-907a-9704636c540b.PNG">
 
 
 
@@ -1087,7 +1087,7 @@
   </html>
   ```
 
-  ![결과 28](C:\git_repo\HTML5\90\media\result28.PNG)
+  <img alt="result28" src="https://user-images.githubusercontent.com/58800295/87108748-f6884080-c29d-11ea-86c2-123201360a75.PNG">
 
 - 배경을 이미지로 사용하면 웹 페이지의 로딩시간이 증가
 - 따라서 보통은 작은 사이즈의 이미지를 패턴으로 만들어 배경이미지로 반복설정
@@ -1131,7 +1131,7 @@
     </html>
     ```
 
-    ![결과 29](C:\git_repo\HTML5\90\media\result29.PNG)
+    <img alt="result29" src="https://user-images.githubusercontent.com/58800295/87108751-f720d700-c29d-11ea-9440-3cfc892358c0.PNG">
 
 #### 타겟 속성
 
@@ -1171,7 +1171,7 @@
   </html>
   ```
 
-  ![결과 30](C:\git_repo\HTML5\90\media\result30.PNG)
+  <img alt="result30" src="https://user-images.githubusercontent.com/58800295/87108754-f720d700-c29d-11ea-84da-66dae893e055.PNG">
 
 #### 링크의 상태(status)
 
