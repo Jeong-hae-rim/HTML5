@@ -26,26 +26,21 @@
     ```html
     <!DOCTYPE html>
     <html lang="ko">
-    
     <head>
     	<meta charset="UTF-8">
     </head>
-    
     <body>
-    
     	<h1>Hello, World!</h1>
     	<h2>2020년 7월 7일</h2>
     	<h3>구공팩토리 2일차</h3>
     	<p>HTML과 CSS를 정리하시라고 하셨다.</p>
     	<p>2주 안에 끝내는 게 베스트!</p>
-    
     </body>
-    
     </html>
     ```
-
+    
     ![result1](https://user-images.githubusercontent.com/58800295/87107718-795bcc00-c29b-11ea-812a-0932d8adcf61.png)
-
+  
 - HTML 태그(tag)
 
   - 태그 이름을 **꺽쇠 괄호(<>)로 감싸서 표현**한다.
@@ -142,7 +137,7 @@
 
   - **속성 명 = 속성 값(value)**로 표현된다.
 
-    ```
+    ```html
     <태그이름 속성이름="속성값">
     ```
 
@@ -165,31 +160,26 @@
     ```html
     <!DOCTYPE html>
     <html lang="ko">
-    
     <head>
     	<meta charset="UTF-8">
     	<title>HTML Tag Structure</title>
     </head>
-    
     <body>
-    
     	<h1>속성값의 따옴표</h1>
     	<p>속성값에 정말로 따옴표가 필요한가?</p>
     	<img src="quotes.jpg" alt="이미지가 없어요"><br>
     	<img src="quotes.jpg" alt=이미지가 없어요>
         <!-- <img> 태그의 alt 속성은 이미지를 불러올 수 없는 상황에서 이미지 대신--> 
         <!-- 보이는 문자열을 설정할 수 있다. -->
-    	
     </body>
-    
     </html>
     ```
-
+    
     <img alt="result3" src="https://user-images.githubusercontent.com/58800295/87107913-eff8c980-c29b-11ea-9d90-11f41504a676.PNG">
-
+    
   - 위 예제처럼 속성 값에 띄어쓰기가 들어가게 되면 반드시 따옴표를 사용해야 정확한 값을 지정할 수 있다.
-
-  - 속성 값을 감쌀 때는 **보통 큰따옴표("")가 사용**되며, 작은 따옴표('')도 사용할 수 있다.
+  
+- 속성 값을 감쌀 때는 **보통 큰따옴표("")가 사용**되며, 작은 따옴표('')도 사용할 수 있다.
 
 ## HTML 텍스트 요소
 
@@ -202,28 +192,23 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Headings</title>
   </head>
-  
   <body>
-  
   	<h1>제목1의 크기입니다!</h1>
   	<h2>제목2의 크기입니다!</h2>
   	<h3>제목3의 크기입니다!</h3>
   	<h4>제목4의 크기입니다!</h4>
   	<h5>제목5의 크기입니다!</h5>
   	<h6>제목6의 크기입니다!</h6>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result4" src="https://user-images.githubusercontent.com/58800295/87107951-0dc62e80-c29c-11ea-9e10-a347980e39c8.PNG">
-
+  
 - h 태그는 제목의 표현이라는 기능 외에도 또 다른 중요한 역할을 한다.
   - 여러 검색 엔진들이 **h 태그를 이용해 키워드를 수집하고 내용을 파악**
   - HTML 문서에 포함되는 제목은 h 태그로 작성해야만 검색 엔진에 의해 제대로 검색될 확률을 높임
@@ -246,21 +231,16 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Paragraph</title>
 </head>
-
 <body>
-
 	<h1>제목1의 크기입니다!</h1>
 	<h2>제목2의 크기입니다!</h2>
 	<h3>제목3의 크기입니다!</h3>
 	<p>여기서부터 단락입니다.</p>
-
 </body>
-
 </html>
 ```
 
@@ -286,26 +266,21 @@
 <pre> 태그 내에 작성된 텍스트의 글꼴(font)은 **고정폭 글꼴(fixed-width font)**로 자동변환된다.
 
   ```html
-  <!DOCTYPE html>
-  <html lang="ko">
-  
-  <head>
+<!DOCTYPE html>
+<html lang="ko">  
+<head>
   	<meta charset="UTF-8">
-  	<title>HTML Paragraph</title>
-  </head>
-  
-  <body>
-  
+    <title>HTML Paragraph</title>
+</head>
+<body>
   	<pre>
   줄을 나누고 싶어서
   이렇게 줄을 나눠봤습니다.
   
   과연     그대로     출력이     될까요?
   	</pre>
-  
-  </body>
-  
-  </html>
+</body>
+</html>
   ```
 
   <img alt="result6" src="https://user-images.githubusercontent.com/58800295/87108022-3e0dcd00-c29c-11ea-8a8b-fae73647a136.PNG">
@@ -319,25 +294,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Paragraph</title>
   </head>
-  
   <body>
-  
   	<p>저는 하나의 단락입니다.</p>
   	<hr>
   	<p>저는 하나의 단락입니다.</p>
   	<hr>
   	<p>저는 하나의 단락입니다.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result7" src="https://user-images.githubusercontent.com/58800295/87108049-4cf47f80-c29c-11ea-93a1-30cdbde72f28.PNG">
 
 
@@ -351,25 +321,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>b태그와 strong태그의 차이점</h1>
   	<p><b>"이 부분"</b>은 단순히 글씨가 굵은 부분이에요!</p>
   	<p><strong>"이 부분"</strong>은 중요한 부분이라서 굵게 표현됐어요!</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result8" src="https://user-images.githubusercontent.com/58800295/87108095-6990b780-c29c-11ea-9327-473ad250d2f5.PNG">
-
+  
 - <b> 태그는 **단순히 화면의 텍스트를 굵게 표현**해준다.
 
   하지만 <strong> 태그는 텍스트를 굵게 표현해줄 뿐 아니라 **그 내용이 중요하다는 의미**도 함께 담고 있다.
@@ -381,25 +346,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>i태그와 em태그의 차이점</h1>
   	<p><i>"이 부분"</i>은 단순히 글씨가 이탤릭체인 부분이에요!</p>
   	<p><em>"이 부분"</em>은 중요한 부분이라서 이탤릭체로 표현됐어요!</p>
-  	
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result9" src="https://user-images.githubusercontent.com/58800295/87108133-7d3c1e00-c29c-11ea-897b-1e84627754bd.PNG">
-
+  
 - 검색 엔진은 **<strong>태그와 <em>태그를 사용하여 강조된 텍스트를 더 중요하게 인식**한다.
 
 #### 하이라이팅 효과
@@ -409,22 +369,17 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>mark태그를 이용한 하이라이팅</h1>
   	<p><mark>"이 부분"</mark>만 하이라이팅하고 싶어요.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result10" src="https://user-images.githubusercontent.com/58800295/87108146-862cef80-c29c-11ea-9e77-0c9a73883016.PNG">
 
 #### 삭제 효과
@@ -434,22 +389,17 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>del태그를 이용한 삭제 효과</h1>
   	<p><del>"이 부분"</del>을 지운 것처럼 하고 싶어요.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result11" src="https://user-images.githubusercontent.com/58800295/87108187-a492eb00-c29c-11ea-99ef-b31b837b5e53.PNG">
 
 #### 삽입 효과
@@ -459,22 +409,17 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>ins태그를 이용한 삽입 효과</h1>
   	<p><ins>"밑줄 친 부분"</ins>에 들어갈 알맞은 말을 고르세요.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result12" src="https://user-images.githubusercontent.com/58800295/87108206-af4d8000-c29c-11ea-856d-cc9840da666b.PNG">
 
 #### 위첨자와 아래첨자 효과
@@ -484,23 +429,18 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Formatting</title>
   </head>
-  
   <body>
-  
   	<h1>sup태그와 sub태그를 이용한 첨자</h1>
   	<p>X<sup>2</sup> + Y<sup>3</sup> = Z</p>
   	<p>물을 나타내는 화학식은 H<sub>2</sub>O 입니다.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result13" src="https://user-images.githubusercontent.com/58800295/87108219-b96f7e80-c29c-11ea-9a7a-cf6098c0764f.PNG">
 
 
@@ -514,24 +454,19 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Quotations</title>
   </head>
-  
   <body>
-  
   	<h1>q태그를 이용한 짧은 인용구</h1>
   	<p>HTML의 정의는
   	<q>웹 페이지를 만들기 위한 하이퍼텍스트 마크업 언어</q>
   	입니다.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result14" src="https://user-images.githubusercontent.com/58800295/87108231-c7250400-c29c-11ea-8f3b-419c62d79ef2.PNG">
 
 #### 블록 인용구
@@ -543,25 +478,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Quotations</title>
   </head>
-  
   <body>
-  
   	<h1>blockquote태그를 이용한 블록 인용구</h1>
   	<p>HTML의 정의</p>
   	<blockquote>
   	인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는 문서를 만들 때 사용하는 프로그래밍 언어의 한 종류이다.
   	</blockquote>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result15" src="https://user-images.githubusercontent.com/58800295/87108247-d1470280-c29c-11ea-8a91-451bb84d4d35.PNG">
 
 #### 축약형 표현
@@ -573,24 +503,19 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Quotations</title>
   </head>
-  
   <body>
-  
   	<h1>abbr태그를 이용한 축약형 표현</h1>
   	<p>아래의 단락에서 HTML5이라는 단어 위에 마우스를 올려놓아 보세요!</p>
   	<p><strong><abbr title="HyperText Markup Language 5">HTML5</abbr></strong>
   	란 웹 문서를 제작하는 데 쓰이는 프로그래밍 언어인 HTML의 최신규격입니다.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   ![result16](https://user-images.githubusercontent.com/58800295/87108267-dc9a2e00-c29c-11ea-9f2c-9785fbb75292.png)
 
 #### 주소표현
@@ -598,22 +523,17 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Quotations</title>
 </head>
-
 <body>
-
 	<h1>address태그를 이용한 주소의 표현</h1>
 	<address>
 		서울특별시<br> 
 		강남구 테헤란로
 	</address>
-
 </body>
-
 </html>
 ```
 
@@ -652,28 +572,23 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Comments</title>
   </head>
-  
   <body>
-  
   	<h1>HTML 중첩 주석</h1>
   	<p>이 부분은 조금 어려운 코드입니다.</p>
   	<!-- 
   		<!-- 주석 안에 또 다른 주석을 삽입했습니다. -->
   		위와 같이 어려운 코드의 이해를 돕기 위해서 개발자가 적어놓은 설명입니다.
   	-->
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result18" src="https://user-images.githubusercontent.com/58800295/87108304-f2a7ee80-c29c-11ea-8f5d-2439a89d2006.PNG">
-
+  
 - 위의 예제처럼 HTML 주석 안에 또 다른 주석을 삽입할 시 삽입한 주석의 종료 태그를 첫 번째 주석이 자신의 종료 태그로 인식
 
 - 따라서 삽입한 주석의 종료 태그 다음부터 첫 번째 주석의 종료 태그까지 모든 내용이 그대로 웹 페이지에 노출됨
@@ -698,25 +613,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Entities</title>
   </head>
-  
   <body>
-  
   	<h1>HTML 엔티티</h1>
   	<p><p>태그는 단락을 나타내는 태그입니다.</p>
   	<p>&lt;p&gt;태그는 단락을 나타내는 태그입니다.</p>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result19" src="https://user-images.githubusercontent.com/58800295/87108319-fe93b080-c29c-11ea-8dda-1d8f00df5672.PNG">
-
+  
 - 위처럼 HTML 코드에서 사용된 꺽쇠괄호(<>)는 HTML 태그의 시작과 끝의 의미로 해석됨
 
 #### 대표적인 엔티티
@@ -800,7 +710,7 @@
 
 - 문법
 
-  ```
+  ```html
   <태그이름 style="속성이름:속성값">
   ```
 
@@ -809,20 +719,15 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Styles</title>
 </head>
-
 <body style="background-color:#33CCFF">
-
 	<h1 style="background-color:white">
 		style 속성을 이용한 배경색 변경
 	</h1>
-
 </body>
-
 </html>
 ```
 
@@ -833,20 +738,15 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Styles</title>
 </head>
-
 <body>
-
 	<h1 style="color:magenta">
 		style 속성을 이용한 글자색 변경
 	</h1>
-
 </body>
-
 </html>
 ```
 
@@ -857,20 +757,16 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Styles</title>
 </head>
-
 <body>
 	<h1>style 속성을 이용한 글자 크기 변경</h1>
 	<h1 style="font-size:250%">
 		style 속성을 이용한 글자 크기 변경
 	</h1>
-
 </body>
-
 </html>
 ```
 
@@ -881,20 +777,16 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Styles</title>
 </head>
-
 <body>
 	<h1>style 속성을 이용한 문단 정렬 변경</h1>
 	<h1 style="text-align:center">
 		style 속성을 이용한 문단 정렬 변경
 	</h1>
-
 </body>
-
 </html>
 ```
 
@@ -905,20 +797,16 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Styles</title>
 </head>
-
 <body style="background-color:#33CCFF">
 	<h1>style 속성을 이용하여 한 번에 스타일링 하기!</h1>
 	<h1 style="background-color:white; color:pink; font-size:150%; text-align:center">
 		style 속성을 이용하여 한 번에 스타일링 하기!
 	</h1>
-
 </body>
-
 </html>
 ```
 
@@ -943,22 +831,17 @@
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Color</title>
 </head>
-
 <body>
-
 	<h1 style="color:blue">색상 이름으로 표현된 파란색</h1>
 	<h1 style="color:green">색상 이름으로 표현된 녹색</h1>
 	<h1 style="color:silver">색상 이름으로 표현된 은색</h1>
 	<h1 style="color:teal">색상 이름으로 표현된 청록색</h1>
 	<h1 style="color:red">색상 이름으로 표현된 빨간색</h1>
-
 </body>
-
 </html>
 ```
 
@@ -977,25 +860,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Color</title>
   </head>
-  
   <body>
-  
   	<h1 style="color:rgb(0,0,255)">RGB 색상값으로 표현된 파란색</h1>
   	<h1 style="color:rgb(0,128,0)">RGB 색상값으로 표현된 녹색</h1>
   	<h1 style="color:rgb(192,192,192)">RGB 색상값으로 표현된 은색</h1>
   	<h1 style="color:rgb(0,128,128)">RGB 색상값으로 표현된 청록색</h1>
   	<h1 style="color:rgb(255,0,0)">RGB 색상값으로 표현된 빨간색</h1>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result26" src="https://user-images.githubusercontent.com/58800295/87108551-8da0c880-c29d-11ea-8a95-8d8b11cac48c.PNG">
 
 #### 16진수 색상값으로 표현
@@ -1009,25 +887,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Color</title>
   </head>
-  
   <body>
-  
   	<h1 style="color:#0000FF">16진수 색상값으로 표현된 파란색</h1>
   	<h1 style="color:#008000">16진수 색상값으로 표현된 녹색</h1>
   	<h1 style="color:#C0C0C0">16진수 색상값으로 표현된 은색</h1>
   	<h1 style="color:#008080">16진수 색상값으로 표현된 청록색</h1>
   	<h1 style="color:#FF0000">16진수 색상값으로 표현된 빨간색</h1>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result27" src="https://user-images.githubusercontent.com/58800295/87108553-8ed1f580-c29d-11ea-907a-9704636c540b.PNG">
 
 
@@ -1049,13 +922,9 @@
 
   ```css
   <style>
-  
       body { background-color: lightblue; }
-  
       h1 { background-color: rgb(255,128,0); }
-  
       p { background-color: #FFFFCC; }
-  
   </style>
   ```
 
@@ -1063,32 +932,27 @@
 
 - 문법
 
-  ```
+  ```html
   <태그이름 background="이미지주소">
   ```
 
 - 예제
 
-  ```
+  ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Backgrounds</title>
   </head>
-  
   <body background="/examples/images/img_background_good.png">
-  
   	<h1>배경으로 이미지 삽입하기</h1>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result28" src="https://user-images.githubusercontent.com/58800295/87108748-f6884080-c29d-11ea-86c2-123201360a75.PNG">
-
+  
 - 배경을 이미지로 사용하면 웹 페이지의 로딩시간이 증가
 - 따라서 보통은 작은 사이즈의 이미지를 패턴으로 만들어 배경이미지로 반복설정
 
@@ -1113,24 +977,19 @@
     ```html
     <!DOCTYPE html>
     <html lang="ko">
-    
     <head>
     	<meta charset="UTF-8">
     	<title>HTML Links</title>
     </head>
-    
     <body>
-    
     	<h1>a태그로 링크 걸기</h1>
     	<a href="/html/intro">
     		<h2>이 링크를 클릭해 보세요!</h2>
     	</a>
-    
     </body>
-    
     </html>
     ```
-
+    
     <img alt="result29" src="https://user-images.githubusercontent.com/58800295/87108751-f720d700-c29d-11ea-9440-3cfc892358c0.PNG">
 
 #### 타겟 속성
@@ -1150,14 +1009,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Links</title>
   </head>
-  
   <body>
-  
   	<h1>a태그의 target 속성값</h1>
   	<h2><a href="/html/intro" target="_blank">blank</a></h2>
   	<h2><a href="/html/intro" target="_self">self</a></h2>
@@ -1165,12 +1021,10 @@
   	<h2><a href="/html/intro" target="_top">top</a></h2>
   	<h2><a href="/html/intro" target="myframe">myframe</a></h2>
   	<iframe name="myframe" style="width:50%; height: 330px"></iframe>
-  
   </body>
-  
   </html>
   ```
-
+  
   <img alt="result30" src="https://user-images.githubusercontent.com/58800295/87108754-f720d700-c29d-11ea-84da-66dae893e055.PNG">
 
 #### 링크의 상태(status)
@@ -1193,27 +1047,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Links</title>
-  
   	<style>
   		a:link    { color: teal; }
   		a:visited { color: maroon; text-decoration: none }
   		a:hover   { color: yellow; text-decoration: none }
   		a:active  { color: red; text-decoration: none }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>링크의 상태</h1>
   	<h2><a href="/html/intro">링크의 상태에 따라 스타일을 다르게 설정합니다!</a></h2>
-  
   </body>
-  
   </html>
   ```
 
@@ -1228,50 +1075,35 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Links</title>
   </head>
-  
   <body>
-  
   	<h1>페이지 책갈피</h1>
   	<a href="#bookmark"><p>제목 7로 간다!</p></a>
-  
   	<h2>제목 1</h2>
   	<p>첫 번째 단락</p>
-  
   	<h2>제목 2</h2>
   	<p>두 번째 단락</p>
-  
   	<h2>제목 3</h2>
   	<p>세 번째 단락</p>
-  
   	<h2>제목 4</h2>
   	<p>네 번째 단락</p>
-  
   	<h2>제목 5</h2>
   	<p>다섯 번째 단락</p>
-  
   	<h2>제목 6</h2>
   	<p>여섯 번째 단락</p>
-  
   	<h2 name="bookmark">제목 7</h2>
   	<p>일곱 번째 단락</p>
-  
   	<h2>제목 8</h2>
   	<p>여덟 번째 단락</p>
-  
   	<h2>제목 9</h2>
   	<p>아홉 번째 단락</p>
-  
-  
   </body>
-  
   </html>
   ```
-
+  
   
 
 ### 5) 이미지
@@ -1303,23 +1135,18 @@
     ```html
     <!DOCTYPE html>
     <html lang="ko">
-    
     <head>
     	<meta charset="UTF-8">
     	<title>HTML Images</title>
     </head>
-    
     <body>
-    
     	<h1>img태그의 alt 속성</h1>
     	<img src="/img_html5_logo.png" alt="이미지 없음">
-    
     </body>
-    
     </html>
     ```
-
-    ![result31](C:\git_repo\HTML5\90\media\result31.PNG)
+    
+    <img alt="result31" src="https://user-images.githubusercontent.com/58800295/87108755-f7b96d80-c29d-11ea-8562-9e8c75048f41.PNG">
 
 #### 이미지의 크기(width, height) 설정
 
@@ -1330,7 +1157,6 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Images</title>
@@ -1341,19 +1167,15 @@
   		}
   	</style>
   </head>
-  
   <body>
-  
   	<h1>이미지의 크기 설정</h1>
   	<img src="/examples/images/img_flag.png" alt="html size" width="320" height="214">
   	<img src="/examples/images/img_flag.png" alt="style size" style="width:320px; height:214px">
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 32](C:\git_repo\HTML5\90\media\result32.PNG)
+  
+  <img alt="result32" src="https://user-images.githubusercontent.com/58800295/87108756-f7b96d80-c29d-11ea-8b9e-06747d1b3969.PNG">
 
 #### 이미지의 테두리(border) 설정
 
@@ -1361,23 +1183,19 @@
 
   ```html
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Images</title>
   </head>
-  
   <body>
-  
   	<h1>이미지의 테두리 설정</h1>
-  	<img src="/examples/images/img_flag.png" alt="이미지 테두리" style="width:320px; height:214px; border: 3px solid black">
-  
+  	<img src="/examples/images/img_flag.png" alt="이미지 테두리" 
+           style="width:320px; height:214px; border: 3px solid black">
   </body>
-  
   </html>
   ```
-
-  ![결과 33](C:\git_repo\HTML5\90\media\result33.PNG)
+  
+  <img alt="result33" src="https://user-images.githubusercontent.com/58800295/87108758-f8520400-c29d-11ea-9a63-0bc2570bafc9.PNG">
 
 #### 이미지에 링크(link)  설정
 
@@ -1386,24 +1204,18 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>TCPSchool HTML Images</title>
   </head>
-  
   <body>
-  
   	<h1>이미지에 링크 설정</h1>
-  
   	<a href="/html/intro">
   		<img src="/examples/images/img_flag.png" alt="flag" 
-               style="width:320px; height:214px; border: 1px solid black">
+  			style="width:320px; height:214px; border: 1px solid black">
   	</a>
   	<p>이미지를 클릭해 보세요!</p>
-  
   </body>
-  
   </html>
   ```
 
@@ -1420,14 +1232,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Images</title>
   </head>
-  
   <body>
-  
   	<h1>이미지 맵 만들기</h1>
   	<img src="/examples/images/img_imagemap.jpg" alt="진실혹은거짓"
            usemap="#vending" style="width:320px; height:240px" />
@@ -1438,9 +1247,7 @@
                 href="https://ko.wikipedia.org/wiki/%EC%A7%84%EC%8B%A4">
   	</map>
   	<p>표지판을 눌러보세요!</p>
-  
   </body>
-
   </html>
   ```
   
@@ -1467,28 +1274,23 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Lists</title>
   </head>
-  
   <body>
-  
   	<h1>순서가 없는 리스트</h1>
   	<ul>
   		<li>사과</li>
   		<li>멜론</li>
   		<li>바나나</li>
   	</ul>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과34](C:\git_repo\HTML5\90\media\result34.PNG)
-
+  
+  <img alt="result34" src="https://user-images.githubusercontent.com/58800295/87108759-f8520400-c29d-11ea-9af9-629a120af72d.PNG">
+  
 - CSS의 **list-style-type** 속성을 사용하면 리스트 요소 앞에 위치하는 마커(marker)를 다른 모양으로 변경 가능
 
   - disc : 검정색 작은 원 모양(default)
@@ -1498,14 +1300,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Lists</title>
   </head>
-  
   <body>
-  
   	<h1>순서가 없는 리스트</h1>
   	<p>검정색 작은 원 모양 (기본설정)</p>
   	<ul>
@@ -1513,27 +1312,23 @@
   		<li>멜론</li>
   		<li>바나나</li>
   	</ul>
-  
   	<p>흰색 작은 원 모양</p>
   	<ul style="list-style-type: circle">
   		<li>수박</li>
   		<li>참외</li>
   		<li>옥수수</li>
   	</ul>
-  
   	<p>검정색 사각형 모양</p>
   	<ul style="list-style-type: square">
   		<li>감자</li>
   		<li>상추</li>
   		<li>고구마</li>
   	</ul>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 35](C:\git_repo\HTML5\90\media\result35.PNG)
+  
+  <img alt="result35" src="https://user-images.githubusercontent.com/58800295/87108761-f8ea9a80-c29d-11ea-893c-5ddeaeff3c06.PNG">
 
 #### 순서가 있는 리스트(Ordered list)
 
@@ -1546,28 +1341,23 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Lists</title>
   </head>
-  
   <body>
-  
   	<h1>순서가 있는 리스트</h1>
   	<ol>
   		<li>사과</li>
   		<li>멜론</li>
   		<li>바나나</li>
   	</ol>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 36](C:\git_repo\HTML5\90\media\result36.PNG)
-
+  
+  <img alt="result36" src="https://user-images.githubusercontent.com/58800295/87112067-e7a58c00-c2a5-11ea-905b-f10f8577d173.PNG">
+  
 - CSS의 **list-style-type** 속성을 사용하면 리스트 요소 앞에 위치하는 마커(marker)를 다른 모양으로 변경 가능
 
   - demical : 숫자(default)
@@ -1579,14 +1369,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Lists</title>
   </head>
-  
   <body>
-  
   	<h1>순서가 있는 리스트</h1>
   	<p>숫자 (기본설정)</p>
   		<ol>
@@ -1594,28 +1381,24 @@
   			<li>멜론</li>
   			<li>바나나</li>
   		</ol>
-  
   	<p>영어 대문자</p>
   		<ol style="list-style-type: upper-alpha">
   			<li>수박</li>
   			<li>참외</li>
   			<li>옥수수</li>
   		</ol>
-  
   	<p>영어 소문자</p>
   		<ol style="list-style-type: lower-alpha">
   			<li>감자</li>
   			<li>상추</li>
   			<li>고구마</li>
   		</ol>
-  
   	<p>로마자 대문자</p>
   		<ol style="list-style-type: upper-roman">
   			<li>오이</li>
   			<li>배추</li>
   			<li>시금치</li>
-  		</ol>
-  		
+  		</ol>	
   	<p>로마자 소문자</p>
   		<ol style="list-style-type: lower-roman">
   			<li>고추</li>
@@ -1623,13 +1406,11 @@
   			<li>양파</li>
   		</ol>
   	</p>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 37](C:\git_repo\HTML5\90\media\result37.PNG)
+  
+  <img alt="result37" src="https://user-images.githubusercontent.com/58800295/87112068-e83e2280-c2a5-11ea-818d-14575e9d79c8.PNG">
 
 #### 정의 리스트(Definition list)
 
@@ -1644,14 +1425,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Lists</title>
   </head>
-  
   <body>
-  
   	<h1>정의 리스트</h1>
   	<dl>
   		<dt>호박</dt>
@@ -1659,13 +1437,11 @@
   		<dt>상추</dt>
   		<dd>- 국화과의 한해살이 또는 두해살이풀</dd>
   	</dl>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 38](C:\git_repo\HTML5\90\media\result38.PNG)
+  
+  <img alt="result38" src="https://user-images.githubusercontent.com/58800295/87112069-e8d6b900-c2a5-11ea-98c5-110781e8aef5.PNG">
 
 
 
@@ -1684,14 +1460,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Tables</title>
   </head>
-  
   <body>
-  
   	<h1>테이블 만들기</h1>
   	<table style="width:100%">
   		<tr style="background-color:lightgrey">
@@ -1710,14 +1483,12 @@
   			<td>돌고래</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 39](C:\git_repo\HTML5\90\media\result39.PNG)
-
+  
+  <img alt="result39" src="https://user-images.githubusercontent.com/58800295/87112071-e8d6b900-c2a5-11ea-88b6-bc333470e3be.PNG">
+  
 - CSS의 **border** 속성을 이용해 테이블에 테두리를 표시
 
   - border 속성 값을 따로 명시하지 않으면 해당 테이블은 **언제나 빈 테두리**를 가지게 됨
@@ -1725,18 +1496,14 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Tables</title>
   	<style>
   		table, th, td { border: 1px solid black }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>다양한 테이블 테두리</h1>
   	<table style="width:100%">
   		<tr style="background-color:lightgrey">
@@ -1755,32 +1522,26 @@
   			<td>돌고래</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 40](C:\git_repo\HTML5\90\media\result40.PNG)
-
+  
+  <img alt="result40" src="https://user-images.githubusercontent.com/58800295/87112072-e96f4f80-c2a5-11ea-8655-7000269fe6ea.PNG">
+  
   - 위의 코드에서 테이블의 border가 2줄씩 나타나는 이유는 <table> 태그와 <th> 태그, <td> 태그가 **모두 자신만의 테두리**를 가지고 있기 때문
   - 2줄에서 1줄로 설정하기 위해서는 **border-collapse** 속성을 사용
-
-  ```html
-  <!DOCTYPE html>
-  <html lang="ko">
   
+```html
+  <!DOCTYPE html>
+<html lang="ko">
   <head>
   	<meta charset="UTF-8">
-  	<title>HTML Tables</title>
+	<title>HTML Tables</title>
   	<style>
   		table, th, td {	border: 1px solid black; border-collapse: collapse }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>일반적인 테이블 만들기</h1>
   	<table style="width:100%">
   		<tr style="background-color:lightgrey">
@@ -1799,13 +1560,11 @@
   			<td>돌고래</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 41](C:\git_repo\HTML5\90\media\result41.png)
+  
+  <img alt="result41" src="https://user-images.githubusercontent.com/58800295/87112073-ea07e600-c2a5-11ea-9bb0-cbf15408cb7e.png">
 
 #### 테이블의 열 합치기
 
@@ -1814,18 +1573,14 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Tables</title>
   	<style>
   		table, th, td {	border: 1px solid black; border-collapse: collapse }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>테이블의 열 합치기</h1>
   	<table style="width:100%">
   		<tr>
@@ -1843,13 +1598,11 @@
   			<td>돌고래</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 42](C:\git_repo\HTML5\90\media\result42.PNG)
+  
+  <img alt="result42" src="https://user-images.githubusercontent.com/58800295/87112075-ea07e600-c2a5-11ea-9e86-1400de92dba2.PNG">
 
 #### 테이블의 행 합치기
 
@@ -1858,18 +1611,14 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Tables</title>
   	<style>
   		table, th, td {	border: 1px solid black; border-collapse: collapse }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>테이블의 행 합치기</h1>
   	<table style="width:100%">
   		<tr>
@@ -1887,13 +1636,11 @@
   			<td>돌고래</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 43](C:\git_repo\HTML5\90\media\result43.PNG)
+  
+  <img alt="result43" src="https://user-images.githubusercontent.com/58800295/87112076-eaa07c80-c2a5-11ea-8506-34559c59c934.PNG">
 
 #### 테이블의 열과 행 합치기
 
@@ -1902,28 +1649,23 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Tables</title>
   	<style>
   		table, th, td {	border: 1px solid black; border-collapse: collapse }
   	</style>
-  
   </head>
-  
   <body>
-  
   	<h1>테이블의 열과 행 합치기</h1>
   	<table style="width:100%">
   		<tr>
   			<td>1</td>
-            	<td>2</td>
-            	<td>3</td>
-            	<td>4</td>
-            	<td>5</td>
-            	<td>6</td>
-            
+            	 <td>2</td>
+            	 <td>3</td>
+            	 <td>4</td>
+            	 <td>5</td>
+            	 <td>6</td>
   		</tr>
   		<tr>
   			<td colspan="6">2</td>
@@ -1943,13 +1685,11 @@
   			<td colspan="4">10</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 44](C:\git_repo\HTML5\90\media\result44.PNG)
+  
+  <img alt="result44" src="https://user-images.githubusercontent.com/58800295/87112721-8979a880-c2a7-11ea-803a-8ca49f67aed1.PNG">
 
 
 
@@ -1975,25 +1715,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Block Inline</title>
   </head>
-  
   <body>
-  
   	<h1>display 속성값 : 블록</h1>
   	<p style="border: 3px solid red">
   		p요소는 대표적인 display 블록(block) 속성 값을 갖고 있다.
   	</p>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 45](C:\git_repo\HTML5\90\media\result45.PNG)
+  
+  <img alt="result45" src="https://user-images.githubusercontent.com/58800295/87112722-8a123f00-c2a7-11ea-9f53-a00a0fa277f9.PNG">
 
 ##### &lt;div&gt; 요소
 
@@ -2004,26 +1739,21 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Block Inline</title>
   </head>
-  
   <body>
-  
   	<div style="background-color:lightgrey; color:green; text-align:center">
   		<h1>div요소를 이용한 스타일 적용</h1>
   		<p>이렇게 div요소로 여러 요소들을 묶은 다음에 style 속성과 클래스 등을 이용하여
   		한 번에 스타일을 적용할 수 있으며, <br> 회색 바탕으로 적용된 부분이 전부 div이다.</p>
   	</div>	
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 46](C:\git_repo\HTML5\90\media\result46.PNG)
+  
+  <img alt="result46" src="https://user-images.githubusercontent.com/58800295/87112725-8a123f00-c2a7-11ea-9048-470bf0298a84.PNG">
 
 #### 인라인(inline) 타입의 요소
 
@@ -2036,23 +1766,18 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Block Inline</title>
   </head>
-  
   <body>
-  
   	<h1>display 속성값 : 인라인</h1>
   	<p><span style="background-color:grey; color:orange">span요소</span>는 display 속성값이 인라인인 요소입니다.</p>
-  
-  </body>
-  
+  </body>W
   </html>
   ```
-
-  ![결과 47](C:\git_repo\HTML5\90\media\result47.PNG)
+  
+  <img alt="result47" src="https://user-images.githubusercontent.com/58800295/87112726-8aaad580-c2a7-11ea-8143-a1646e7c9b7b.PNG">
 
 ##### &lt;span&gt; 요소
 
@@ -2063,25 +1788,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Block Inline</title>
   </head>
-  
   <body>
-  
   	<h1>span요소를 이용한 스타일 적용</h1>
   	<p>이렇게 
   	<span style="border: 3px solid red">span요소로 텍스트의 일부분</span>
   	만을 따로 묶은 후에 스타일을 적용할 수 있습니다.</p>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 48](C:\git_repo\HTML5\90\media\result48.PNG)
+  
+  <img alt="result48" src="https://user-images.githubusercontent.com/58800295/87112727-8aaad580-c2a7-11ea-9462-9071dc1a54cc.PNG">
 
 
 
@@ -2106,23 +1826,18 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Iframes</title>
   </head>
-  
   <body>
-  
   	<h1>iframe태그를 이용한 웹 페이지 삽입</h1>
   	<iframe src="/css/intro" style="width:100%; height:300px"></iframe>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 49](C:\git_repo\HTML5\90\media\result49.PNG)
+  
+  <img alt="result49" src="https://user-images.githubusercontent.com/58800295/87112728-8b436c00-c2a7-11ea-80a2-03653259a4a4.PNG">
 
 #### iframe 요소의 테두리 변경
 
@@ -2133,46 +1848,36 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Iframes</title>
   </head>
-  
   <body>
-  
   	<h1>iframe의 테두리 변경</h1>
   	<iframe src="/css/intro" style="width:100%; height:300px; border: 5px dashed pink"></iframe>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 50](C:\git_repo\HTML5\90\media\result50.PNG)
-
+  
+  <img alt="result50" src="https://user-images.githubusercontent.com/58800295/87112731-8b436c00-c2a7-11ea-9eb1-d0442a983742.PNG">
+  
 - 테두리를 표현하고 싶지 않은 경우에는 style 속성에서 border 값을 none으로 변경하면 된다.
 
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Iframes</title>
   </head>
-  
   <body>
-  
   	<h1>iframe의 테두리 삭제</h1>
   	<iframe src="/css/intro" style="width:100%; height:300px; border:none"></iframe>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 51](C:\git_repo\HTML5\90\media\result51.PNG)
+  
+  <img alt="result51" src="https://user-images.githubusercontent.com/58800295/87112732-8bdc0280-c2a7-11ea-877e-7ab090210051.PNG">
 
 #### iframe 요소의 페이지 변경하기
 
@@ -2183,25 +1888,20 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Iframes</title>
   </head>
-  
   <body>
-  
   	<h1>iframe 요소의 페이지 변경하기</h1>
   	<iframe src="/css/intro" name="frame_target" style="width:100%; height:400px"></iframe>
   	<p><a href="/php/intro" target="frame_target">PHP 수업 확인하러 가기 =></a></p>
   	<p>위의 링크를 클릭하면 iframe 요소의 페이지가 다른 페이지로 변경돼요!</p>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 52](C:\git_repo\HTML5\90\media\result52.gif)
+  
+  ![result52](https://user-images.githubusercontent.com/58800295/87113033-54ba2100-c2a8-11ea-8c05-a63e8567ff5e.gif)
 
 #### **프레임셋(frameset)
 
@@ -2221,14 +1921,10 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Frames</title>
   </head>
-  
-  
   <frameset cols="25%,*,25%">
   <frame name="left" src="/html/intro"/>
   <frame name="center" src="/css/intro"/>
@@ -2239,7 +1935,6 @@
   	</body>
   </noframes>
   </frameset>
-  
   </html>
   ```
 
@@ -2250,12 +1945,10 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Frames</title>
   </head>
-  
   <frameset rows="20%,60%,20%">
   <frame name="top" src="/html/intro" noresize="noresize" />
   <frame name="center" src="/css/intro" noresize="noresize" />
@@ -2266,10 +1959,9 @@
   	</body>
   </noframes>
   </frameset>
-  
   </html>
   ```
-
+  
   - 위의 예제는 frame 요소에 noresize 속성을 명시하였으므로, 사용자가 창의 크기를 조절할 수 없습니다.
 
 ### 3) 레이아웃
@@ -2294,7 +1986,6 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Layouts</title>
@@ -2326,9 +2017,7 @@
   		#nav, #section { line-height:240px; }
   	</style>
   </head>
-  
   <body>
-  
   	<h1>div 요소를 이용한 레이아웃</h1>
   	<div id="header">
   		<h2>HEADER 영역</h2>
@@ -2342,13 +2031,11 @@
   	<div id="footer">
   		<h2>FOOTER 영역</h2>
   	</div>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 53](C:\git_repo\HTML5\90\media\result53.PNG)
+  
+  <img alt="result53" src="https://user-images.githubusercontent.com/58800295/87113037-55eb4e00-c2a8-11ea-8430-c26629a3deb5.PNG">
 
 #### HTML5 레이아웃
 
@@ -2361,7 +2048,6 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Layouts</title>
@@ -2393,9 +2079,7 @@
   		nav, section { line-height:240px; }
   	</style>
   </head>
-  
   <body>
-  
   	<h1>HTML5 레이아웃</h1>
   	<header>
   		<h2>HEADER 영역</h2>
@@ -2409,14 +2093,12 @@
   	<footer>
   		<h2>FOOTER 영역</h2>
   	</footer>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 54](C:\git_repo\HTML5\90\media\result54.PNG)
-
+  
+  <img alt="result54" src="https://user-images.githubusercontent.com/58800295/87113038-55eb4e00-c2a8-11ea-89b8-17add4a084b4.PNG">
+  
 - HTML5에서 제공하는 레이아웃만을 위한 의미(semantic) 요소
 
   | 의미 요소 |                             설명                             |
@@ -2441,14 +2123,11 @@
   ```html
   <!DOCTYPE html>
   <html lang="ko">
-  
   <head>
   	<meta charset="UTF-8">
   	<title>HTML Layouts</title>
   </head>
-  
   <body>
-  
   	<h1>table 요소를 이용한 레이아웃</h1>
   	<table width="100%" style="text-align:center; border:none">
   		<tr>
@@ -2470,13 +2149,11 @@
   			</td>
   		</tr>
   	</table>
-  
   </body>
-  
   </html>
   ```
-
-  ![결과 55](C:\git_repo\HTML5\90\media\result55.PNG)
+  
+  <img alt="result55" src="https://user-images.githubusercontent.com/58800295/87113040-5683e480-c2a8-11ea-9ecd-19f2b9243e98.PNG">
 
 ## 5. HTML 입력 양식
 
@@ -2554,7 +2231,7 @@
   </html>
   ```
 
-  ![결과 56](C:\git_repo\HTML5\90\media\result56.PNG)
+  <img alt="result56" src="https://user-images.githubusercontent.com/58800295/87113042-5683e480-c2a8-11ea-8a1b-acdff68bae4f.PNG">
 
 ##### 2. 비밀번호 입력(password)
 
