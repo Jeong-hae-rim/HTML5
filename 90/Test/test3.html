@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Our superheroes</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+    <script>
+    const header = document.querySelector('header');
+    const section = document.querySelector('section');
+    // header와 section 요소를 참조하여 변수에 담는 코드이다.
+
+    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'
+    //변수로 requestURL을 선언해주고 해당 Json의 URL을 가져와 변수에 저장해준다.
+
+    var request = new XMLHttpRequest();
+    // 변수 request를 선언한 뒤 XMLHttpRequest 객체를 생성하여 저장.
+    // 객체를 생성하는 순간 그 안에 들어있는 속성들도 갖다가 쓸 수 있게 됨.
+
+    request.open('GET', requestURL);
+    //open 메소드를 사용해 새로운 요청을 만든다.
+    //데이터만 가져올 것이기 때문에 GET 방식을 사용하고, 두 번째 인자로 요청을 보낼 곳을 지정한다.
+
+    request.responseType = 'json';
+    //응답 받을 형식을 json으로 지정한다.
+    //XHR로 하여금 서버가 json 데이터를 반환할 때, 자바스크립트 객체로서 변환될 것임을 알려준다.
+    
+    request.send();
+    //요청을 보낸다.
+
+    request.onload = function() {
+        var superHeroes = request.response;
+        // 요청에 대해 서버가 보낸 응답을 변수 superHeroes에 저장.
+        // response 프로퍼티로 가능하다.
+        populateHeader(superHeroes);
+        //<header>를 적절한 데이터로 채울 것이고
+        showHeroes(superHeroes);
+        //section에 히어로에 대한 정보 카드를 생성하여 뿌려준다.
+    } 
+    // onload : 이벤트 핸들러. 요청을 보낼 때 함수를 호출.
+    // 응답이 성공적으로 돌아왔을 때만 로드 이벤트가 작동.
+    // 이 방식은 우리가 무언가를 시도를 했을 때 request.response가 확실히 가능하다는 것을 보장.
+    // 서버 통신 쪽.
+    // 자바스크립트 객체로 변환
+
+    function populateHeader(jsonObj) {
+        //console.log(jsonObj); : 이 인자는 어떤 데이터를 담고 있는지 궁금해서 직접 찍어봤다.
+        var myH1 = document.createElement('h1');
+        // 변수 myH1를 선언하고, createElement로 h1 태그를 생성해 문서 위에 출력한다.
+        myH1.textContent = jsonObj['squadName'];
+        // myH1의 textContent를 jsonObj 객체의 squadName 프로퍼티와 같도록 만들어줌
+        // 프로퍼티는 어떠한 값이 다른 값과 연관을 가지고 있을 때 프로퍼티라고 부름
+        header.appendChild(myH1);
+        // appendChild를 이용해 헤더에 붙여준다.
+
+        var myPara = document.createElement('p');
+        myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+        header.appendChild(myPara);
+        // 위의 코드와 마찬가지로 paragraph에도 적용.
+    }
+    // populateHeader의 매개변수를 jsonObj로 지정. (자바스크립트 객체는 Json으로부터 생겨났음을 의미)
+
+    function showHeroes(jsonObj) {
+        var heroes = jsonObj['members'];
+        // 변수 heroes를 선언하고 members라는 프로퍼티를 저장한 자바스크립트 객체를 저장
+        // 이 배열은 각 히어로에 대한 정보를 가진 여러 개의 객체를 포함한다.
+        // console.log(jsonObj['members']);  : 궁금해서 어떻게 출력되는지 직접 찍어봤다.
+
+        for (var i = 0; i < heroes.length; i++) {
+            var myArticle = document.createElement('article');
+            var myH2 = document.createElement('h2');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myPara3 = document.createElement('p');
+            var myList = document.createElement('ul');
+            // for 구문으로 돌릴 것.
+            // 새로운 요소를 위에 createElement를 이용해 생성해준다.
+
+            myH2.textContent = heroes[i].name;
+            // h2 태그가 히어로의 name을 가질 수 있도록 설정
+
+            myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
+            myPara2.textContent = 'Age: ' + heroes[i].age;
+            myPara3.textContent = 'Superpowers:';
+            // 목록 내의 정보를 소개시켜주려 세 개의 p 안에 그들의 세 가지의 정보를 넣어준다.
+
+            var superPowers = heroes[i].powers;
+            // superPowers라는 변수 안에 power 프로퍼티를 저장한다.
+            // 이는 현재 히어로의 초능력을 열거한 배열을 포함한다.
+
+            for (var j = 0; j < superPowers.length; j++) {
+                var listItem = document.createElement('li');
+                listItem.textContent = superPowers[j];
+                myList.appendChild(listItem);
+            }
+            // 현재 히어로의 초능력을 반복해서 집어넣어줄 for구문 실행
+            // createElement를 이용해 li 태그를 생성하고
+            // appendChild()를 사용해 'myList'라는 ul 태그 안에 listItem을 집어넣어준다. 
+
+            myArticle.appendChild(myH2);
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myPara3);
+            myArticle.appendChild(myList);
+            // 마지막으로 myArticle 안에 차례대로 만들어준 변수들을 넣어주고
+
+            section.appendChild(myArticle);
+            // section 안에 위의 my Article들을 넣어준다.
+
+            // 요소가 추가되는 순서는 매우 중요하다. HTML 파일 내에 이 순서대로 보여지기 때문!
+        }
+    }
+
+    </script>
+  </body>
+</html>

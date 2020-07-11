@@ -1562,8 +1562,8 @@
   	</table>
   </body>
   </html>
-  ```
-  
+```
+
   <img alt="result41" src="https://user-images.githubusercontent.com/58800295/87112073-ea07e600-c2a5-11ea-9bb0-cbf15408cb7e.png">
 
 #### 테이블의 열 합치기
@@ -2155,6 +2155,8 @@
   
   <img alt="result55" src="https://user-images.githubusercontent.com/58800295/87113040-5683e480-c2a8-11ea-9ecd-19f2b9243e98.PNG">
 
+
+
 ## 5. HTML 입력 양식
 
 ### 1) Form 요소
@@ -2258,7 +2260,7 @@
   </html>
   ```
 
-  ![결과 57](C:\git_repo\HTML5\90\media\result57.PNG)
+  <img alt="result57" src="https://user-images.githubusercontent.com/58800295/87113045-571c7b00-c2a8-11ea-896e-e9f77b68e6d5.PNG">
 
 ##### 3. 라디오 버튼(radio)
 
@@ -2292,7 +2294,7 @@
   </html>
   ```
 
-  ![결과 58](C:\git_repo\HTML5\90\media\result58.PNG)
+  <img alt="result58" src="https://user-images.githubusercontent.com/58800295/87113046-57b51180-c2a8-11ea-8759-9076600009fb.PNG">
 
 ##### 4. 체크박스(checkbox)
 
@@ -2326,7 +2328,7 @@
   </html>
   ```
 
-  ![결과 59](C:\git_repo\HTML5\90\media\result59.PNG)
+  <img alt="result59" src="https://user-images.githubusercontent.com/58800295/87113047-57b51180-c2a8-11ea-9c69-a239d564f9cd.PNG">
 
 ##### 5. 파일 선택(file)
 
@@ -2352,7 +2354,7 @@
   </html>
   ```
 
-  ![결과 60](C:\git_repo\HTML5\90\media\result60.PNG)
+  <img alt="result60" src="https://user-images.githubusercontent.com/58800295/87113262-d4e08680-c2a8-11ea-99f1-b9a0995e6d7c.PNG">
 
 ##### 6. 선택 입력(select)
 
@@ -2388,7 +2390,7 @@
   </html>
   ```
 
-  ![결과 61](C:\git_repo\HTML5\90\media\result61.PNG)
+  <img alt="result61" src="https://user-images.githubusercontent.com/58800295/87113265-d5791d00-c2a8-11ea-8608-f18e12313453.PNG">
 
 ##### 7. 문장 입력(textarea)
 
@@ -2413,7 +2415,7 @@
   </html>
   ```
 
-  ![결과 62](C:\git_repo\HTML5\90\media\result62.PNG)
+  <img alt="result62" src="https://user-images.githubusercontent.com/58800295/87113266-d611b380-c2a8-11ea-9c02-d7be431c6b00.PNG">
 
 ##### 8. 버튼 입력(button)
 
@@ -2433,7 +2435,7 @@
   </html>
   ```
 
-  ![결과 63](C:\git_repo\HTML5\90\media\result63.PNG)
+  <img alt="result63" src="https://user-images.githubusercontent.com/58800295/87113267-d611b380-c2a8-11ea-9566-b9e24f727ff6.PNG">
 
 ##### 9. 전송 버튼(submit)
 
@@ -2460,7 +2462,7 @@
   </html>
   ```
 
-  ![결과 64](C:\git_repo\HTML5\90\media\result64.gif)
+  ![result64](https://user-images.githubusercontent.com/58800295/87113268-d6aa4a00-c2a8-11ea-9fa1-c26066d8d18e.gif)
 
 ##### 10. 필드셋(fieldset)
 
@@ -2493,7 +2495,7 @@
     </html>
     ```
 
-    ![결과 65](C:\git_repo\HTML5\90\media\result65.PNG)
+    <img alt="result65" src="https://user-images.githubusercontent.com/58800295/87113269-d6aa4a00-c2a8-11ea-8791-af1b1353b54c.PNG">
 
 #### HTML5에서 추가된 다양 한 타입의 input 요소
 
@@ -2533,7 +2535,7 @@
   </html>
   ```
 
-  ![결과66](C:\git_repo\HTML5\90\media\result66.PNG)
+  <img alt="result66" src="https://user-images.githubusercontent.com/58800295/87113271-d742e080-c2a8-11ea-9e20-f265a99829e1.PNG">
 
 #### readonly 속성
 
@@ -2563,7 +2565,7 @@
   </html>
   ```
 
-  ![결과 67](C:\git_repo\HTML5\90\media\result67.gif)
+  ![result67](https://user-images.githubusercontent.com/58800295/87113273-d7db7700-c2a8-11ea-8e1f-192c0c0cce00.gif)
 
 #### disabled 속성
 
@@ -2595,7 +2597,7 @@
   </html>
   ```
 
-  ![결과 68](C:\git_repo\HTML5\90\media\result68.gif)
+  ![result68](https://user-images.githubusercontent.com/58800295/87113276-d7db7700-c2a8-11ea-8486-00be4cd88154.gif)
 
 #### maxlength 속성
 
@@ -2621,7 +2623,7 @@
   </html>
   ```
 
-  ![결과 69](C:\git_repo\HTML5\90\media\result69.gif)
+  ![result69](https://user-images.githubusercontent.com/58800295/87113277-d8740d80-c2a8-11ea-8ed5-bf51a6a0977c.gif)
 
 #### size 속성
 
@@ -2676,3 +2678,389 @@
 - placeholder
 - required
 - step
+
+
+
+## 6. HTML과 CSS
+
+### 1)  HTML과 CSS
+
+#### CSS란?
+
+- Cascading Style Sheets의 약자
+- CSS는 HTML 요소들이 각종 미디어에서 어덯게 보이는가를 정의하는 데 사용되는 스타일 시트 언어
+- HTML4 부터는 모든 서식 설정을 HTML 문서로부터 분리하는 것이 가능해짐
+
+#### CSS 적용 방법
+
+##### 인라인 스타일(Inline style)
+
+- HTML 요소 내부에 style 속성을 사용해 CSS 스타일을 적용하는 방법
+
+- 인라인 스타일은 해당 요소에만 스타일을 적용 가능
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML CSS</title>
+  </head>
+  <body>
+  	<h1>인라인 스타일</h1>
+  	<p style="color:green; text-decoration:underline;">
+  	인라인 스타일을 이용하여 스타일을 적용하였습니다.
+  	</p>
+  </body>
+  </html>
+  ```
+
+  ![결과72](https://user-images.githubusercontent.com/58800295/87218731-4cd5ac00-c390-11ea-9a47-dbfc5bb04bc0.png)
+
+##### 내부 스타일 시트(Internal style sheet)
+
+- 내부 스타일 시트를 이용한 방법은 HTML 문서의 &lt;head&gt; 태그 내에 &lt;style&gt; 태그를 사용하여 스타일 지정
+
+- 내부 스타일 시트는 해당 HTML 문서에만 스타일 적용 가능
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML CSS</title>
+  	<style>
+  		body { background-color: lightyellow; }
+  		p { color: red; text-decoration: underline; }
+  	</style>
+  </head>
+  <body>
+  	<h1>내부 스타일 시트</h1>
+  	<p>내부 스타일 시트를 이용하여 스타일을 적용하였습니다.</p>
+  </body>
+  </html>
+  ```
+
+  ![결과73](https://user-images.githubusercontent.com/58800295/87218761-a50cae00-c390-11ea-9a7c-b67bbc6c0456.png)
+
+##### 외부 스타일 시트(External style sheet)
+
+- 외부 스타일 시트를 이용한 방법은 웹사이트 전체의 스타일을 하나의 파일에서 변경할 수 있도록 해줌
+
+- 스타일을 적용할 모든 웹페이지의 &lt;head&gt; 태그 내에 &lt;link&gt; 태그를 사용하여 외부 스타일 시트를 포함
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML CSS</title>
+  	<link rel="stylesheet" href="/examples/media/expand_style.css">
+  </head>
+  <body>
+  	<h1>외부 스타일 시트</h1>
+  	<p>외부 스타일 시트를 이용하여 스타일을 적용하였습니다.</p>
+  </body>
+  </html>
+  ```
+
+  ![결과 74](https://user-images.githubusercontent.com/58800295/87218789-ed2bd080-c390-11ea-8e22-10fc3ca0312a.png)
+
+- 위의 예제에 사용된 CSS 파일의 내용은 다음과 같다.
+
+  ```css
+  <!--expand_style.css라는 파일명으로 지정
+  다른 태그 필요 없이 바로 스타일 작성을 시작하면 된다.--> 
+  
+  body { background-color: lightyellow; }
+  p { color: red; text-decoration: underline; }
+  ```
+
+#### CSS 선택자
+
+- 스타일을 적용할 HTML 요소를 선택하는데에 사용
+- 대표적인 선택자
+  - HTML 요소 선택자
+  - 아이디(id) 선택자
+  - 클래스(class) 선택자
+
+##### HTML 요소 선택자
+
+- CSS 적용할 대상으로 HTML 요소의 이름을 직접 사용하여 선택
+
+  ```css
+  p{ color:red; font-size:14px;}
+  ```
+
+##### 아이디(id) 선택자
+
+- 아이디 선택자는 CSS를 적용할 대상으로 특정 요소를 선택할 때 사용
+
+- 아이디 선택자는 웹 페이지에 포함된 여러 요소 중에서 특정 아이디 이름을 가지는 요소만을 선택
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML CSS</title>
+  	<style>
+  		#para {
+  			color: teal;
+  			text-decoration: line-through;
+  		}
+  	</style>
+  </head>
+  <body>
+  	<h1>아이디 선택자를 이용한 선택</h1>
+  	<p id="para">이 부분에 스타일을 적용합니다.</p>
+  	<p>아이디 선택자를 이용하여 스타일을 적용할 특정 HTML 요소를 선택할 수 있습니다.</p>
+  </body>
+  </html>
+  ```
+
+  ![결과 75](https://user-images.githubusercontent.com/58800295/87219652-e6ed2280-c397-11ea-85d0-4aeec664c88c.png)
+
+- HTML과 CSS에서는 하나의 웹 페이지에 속하는 여러 요소에 같은 아이디 이름을 사용해도 별 문제 없이 동작
+- 하지만 중복된 아이디를 가지고 자바스크립트 작업을 하게 되면 오류
+- 따라서 되도록이면 하나의 웹페이지에 속하는 요소에는 다른 아이디 이름을 사용하거나 클래스를 사용하는 것이 좋음
+
+##### 클래스(class) 선택자
+
+- 클래스 선택자는 특정 집단의 요소를 한 번에 선택할 때 사용
+
+- 이런 특정 집단을 클래스(class)라고 하며, 동일한 클래스 이름을 가지는 요소들을 모두 선택
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML CSS</title>
+  	<style>
+  		.paras {
+  			color: lime;
+  			text-decoration: overline;
+  		}
+  	</style>
+  </head>
+  <body>
+  	<h1>클래스 선택자를 이용한 선택</h1>
+  	<p class="paras">이 부분에 스타일을 적용합니다.</p>
+  	<p>클래스 선택자를 이용하여 스타일을 적용할 HTML 요소들을 한 번에 선택할 수 있습니다.</p>
+  	<p class="paras">이 부분에도 같은 스타일을 적용합니다.</p>
+  </body>
+  </html>
+  ```
+
+  ![결과 77](https://user-images.githubusercontent.com/58800295/87219686-5f53e380-c398-11ea-8337-b7c9d49d6550.png)
+
+
+
+### 2) HTML과 자바스크립트
+
+#### 자바스크립트란?
+
+- 객체(object) 기반의 스크립트 언어
+- HTML로는 웹을 작성하고, CSS로는 웹을 디자인하며, 자바스크립트로는 웹의 동작 구현
+- 자바스크립트는 주로 웹 브라우저에서 사용되나, Node.js 같은 프레임워크를 사용하면 서버 측 프로그래밍에서도 사용 가능
+- 현재 컴퓨터나 스마트폰 등에 포함된 대부분의 웹 브라우저에는 자바스크립트 인터프리터가 내장
+
+#### script 요소
+
+- script 요소는 해당 웹 페이지에 사용할 스크립트(script)를 정의하기 위해 사용
+
+- script 요소 내부에 직접 스크립트를 작성하거나, 외부 스크립트 파일의 주소를 src 속성값으로 명시
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML JS</title>
+  </head>
+  <body>
+  	<h1>자바스크립트를 이용한 문장 삽입</h1>
+  	<p id="demo"></p>
+  	<script>
+  		document.getElementById("demo").innerHTML = "이렇게 글자가 들어간다용가리";
+  	</script>
+  </body>
+  </html>
+  ```
+
+  ![결과78](https://user-images.githubusercontent.com/58800295/87219758-105a7e00-c399-11ea-8a12-a894fdf58ee1.png)
+
+#### noscript 요소
+
+- noscript 요소는 스크립트를 지원하지 않는 웹 브라우저를 사용하는 사용자에게 보여줄 문자열을 설정할 때 사용
+
+- noscript 요소는 일반적인 HTML 문서의 body 요소 내부에 나올 수 있는 모든 요소를 포함
+
+- 참고 : 스크립트를 지원하는 브라우저에서는 &lt;noscript&gt; 태그 내의 내용이 표시되지 않는다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML JS</title>
+  </head>
+  <body>
+  	<h1>noscript태그를 이용한 대체 메세지</h1>
+  	<p id="demo"></p>
+  	<script>
+  		document.getElementById("demo").innerHTML = "헬로우!";
+  	</script>
+  	<noscript>당신의 웹 브라우저는 자바스크립트를 지원하지 않습니다!</noscript>
+  </body>
+  </html>
+  ```
+
+  ![결과79](https://user-images.githubusercontent.com/58800295/87219841-a393b380-c399-11ea-9e81-d5c9474236d0.png)
+
+- 위의 결과 화면은 현재 브라우저가 scipt 태그를 지원하기 때문에 noscipt 태그 내의 내용이 나오지 않은 것이다.
+
+### 3) HTML과 XHTML
+
+#### XHTML
+
+- XHTML은 EXtensible HTML을 의미
+- XHTML은 HTML과 거의 비슷하지만, 문법의 적용이 조금 더 엄격한 특징
+
+#### 좀 더 엄격한 버전인 XHTML을 사용하는 이유?
+
+- 오늘날 웹 콘텐츠는 기존의 PC 위주의 환경에서 벗어나 여러 다양한 플랫폼에서 더욱 많이 이용
+- 따라서 부정확한 HTML 문법을 지원하는데 필요한 자원이 부족한 환경이 점차 생겨남
+- XHTML 문서는 하나의 XML 문서로써 문법적으로 정확
+- 표준 XML 라이브러리를 이용한 자동화된 처리가 가능
+
+#### XHTML에서의 변경 사항
+
+##### 문서의 구조적 측면
+
+- XHTML DOCTYPE을 반드시 명시하여야 함
+- &lt;html&gt; 태그의 xmlns 속성을 반드시 명시해야 함
+- &lt;html&gt;, &lt;head&gt;, &lt;title&gt;, &lt;body&gt; 태그를 반드시 사용해야 함
+
+##### 문서의 요소적 측면
+
+- 모든 태그는 반드시 닫혀야 한다.
+
+- 모든 태그는 순서대로 닫혀야 한다.
+
+- 모든 요소는 반드시 **소문자**로 사용되어야 한다.
+
+- XHTML 문서는 반드시 하나의 **root 요소**를 포함해야 한다.
+
+  - root 요소 : XML 문서에서 최상위 요소
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <quiz>
+    <question>대한민국의 초대 대통령은?</question>
+    <answer>이승만</answer>
+    <url>http://zetawiki.com/wiki/XML</url>
+    </quiz>
+    ```
+
+    - root 요소는 quiz
+
+    ```xml
+     <?xml version="1.0" encoding="UTF-8"?>
+     <!DOCTYPE example [<!ENTITY copy "&#xA9;">]>
+       
+     <rootElement attribute="xyz">
+       <contentElement/>
+     </rootElement>
+     
+     <!-- comment nodes may appear almost anywhere -->
+    ```
+
+    - root 요소는 rootElement
+
+##### 문서의 속성적 측면
+
+- 속성 이름은 반드시 소문자로 사용되어야 한다.
+- 속성값은 반드시 따옴표로 감싸야 한다.
+- 속성값 생략이 없어졌기 때문에 반드시 속성값을 명시해야 한다.
+
+#### HTML과 XHTML의 차이점
+
+1. 종료 태그가 없는 빈 태그(empty tag)는 반드시 끝에 공백과 함께 슬래시(/)를 붙여야 한다.
+
+   ```xml
+   HTML : <hr>
+   XHTML : <hr />
+   ```
+
+2. 비어있지 않은 태그(요소)들은 반드시 종료 태그를 가져야 한다.
+
+   ```xml
+   HTML : <p>첫 번째 문장</p><p>두 번째 문장
+   XHTML : <p>첫 번째 문장</p><p>두 번째 문장</p>
+   ```
+
+3. 요소들은 반드시 열린 순서대로 닫혀야 한다.
+
+   ```xml
+   HTML  : <em><p>This is some text.</em></p>
+   XHTML : <em><p>This is some text.</p></em>
+   ```
+
+4. &lt;img&gt; 태그에는 반드시 alt 속성이 기술되어야 한다.
+
+   ```xml
+   HTML  : <img src="alternative.png" />
+   XHTML : <img src="alternative.png" alt="explanation" />
+   ```
+
+5. 모든 텍스트(text)는 반드시 태그로 감싸야 한다.
+
+   ```xml
+   HTML  : <img src="alternative.png" />
+   XHTML : <img src="alternative.png" alt="explanation" />
+   ```
+
+6. 속성값은 반드시 따옴표로 감싸야 한다.
+
+   ```xml
+   HTML  : <td rowspan=3>
+   XHTML : <td rowspan="3">
+   ```
+
+7. 태그 이름이나 속성 이름에는 반드시 소문자만을 사용해야 한다.
+
+   ```xml
+   HTML  : <BODY><P>태그 이름과 태그 속성은</P></BODY>
+   XHTML : <body><p>반드시 소문자만을 사용하자.</p></body>
+   ```
+
+8. 속성값 생략이 없어졌으므로, 반드시 속성값을 명시
+
+   ```xml
+   HTML  : <textarea readonly>읽기만 가능합니다.</textarea>
+   XHTML : <textarea readonly="readonly">읽기만 가능합니다.</textarea>
+   ```
+
+- 위의 모든 HTML 예제는 XHTML 기준에는 맞지 않으나, HTML에서는 모두 정상적으로 작동
+
+#### HTML 문서를 XHTML 문서로 변환하는 방법
+
+1. 첫줄에 다음 코드를 추가한다.
+
+   ```xml
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+     <html xmlns="http://www.w3.org/1999/xhtml">
+   ```
+
+2. xmlns 속성을 추가한다.
+
+3. 모든 태그 이름을 소문자로 바꿔준다.
+
+4. 모든 빈 태그를 닫아준다.
+
+5. 모든 속성 이름을 소문자로 바꿔준다.
+
+6. 모든 속성값을 따옴표로 둘러싼다.
