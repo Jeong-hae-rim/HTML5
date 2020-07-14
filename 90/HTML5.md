@@ -343,18 +343,251 @@
 
 ![Untitled1](https://user-images.githubusercontent.com/58800295/87222229-26723980-c3ad-11ea-9003-39f169ab2577.gif)
 
-#### 5.time
+#### 5.time(시간 입력)
 
-#### 6. datetime-local
+- &lt;input&gt; 태그의 type 속성값을 "time"으로 설정하면, input 요소는 사용자가 시간을 입력할 수 있도록 해준다.
 
-#### 7. month
+- 브라우저 지원 여부에 따라 시간을 선택하기 위한 도구를 보여준다.
 
-#### 8. week
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>time 타입을 이용한 시간 선택</h1>
+  	<form action="/examples/media/request.php">
+  		여러분이 태어난 시간은 몇 시인가요?<br><br>
+  		<input type="time" name="birthtime">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
 
-#### 9. email
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87404650-63327080-c5f9-11ea-8be0-defde80be987.gif)
 
-#### 10. tel
+#### 6. datetime-local (날짜와 시간 입력)
 
-#### 11. url
+- &lt;input&gt; 태그의 type 속성값을 "datetime-local"로 설정하면, input 요소는 날짜와 시간을 입력할 수 있도록 해준다.
 
-#### 12.  search
+- 브라우저 지원 여부에 따라 날짜를 선택하기 위한 캘린더와 시간을 선택하기 위한 도구를 보여준다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>datetime-local 타입을 이용한 날짜와 시간 선택</h1>
+  	<form action="/examples/media/request.php">
+  		이 수업을 처음 들은 날을 골라주세요!<br>
+  		그렇다면 혹시 그 시간도 기억하시나요?<br><br>
+  		<input type="datetime-local" name="starttime">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87405563-96c1ca80-c5fa-11ea-90bd-9b00d0030480.gif)
+
+#### 7. month(연도와 월 입력)
+
+- &lt;input&gt; 태그의 type 속성값을 "month"로 설정하면, input 요소는 사용자가 연도와 월을 입력할 수 있게 해준다.
+
+- 브라우저 지원 여부에 따라 연도와 월을 선택하기 위한 캘린더를 보여준다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>month 타입을 이용한 연도와 월 선택</h1>
+  	<form action="/examples/media/request.php">
+  		여러분이 태어난 연월을 선택해 보세요!<br><br>
+  		<input type="month" name="birthmonth">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87406682-01bfd100-c5fc-11ea-9236-985fe27f4708.gif)
+
+#### 8. week(연도와 주 입력)
+
+- &lt;input&gt; 태그의 type 속성값을 "week"로 설정하면, input 요소는 사용자가 연도와 몇 번째 주인지 입력할 수 있도록 해준다.
+
+- 브라우저 지원 여부에 따라 연도와 주를 선택하기 위한 캘린더를 보여준다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>week 타입을 이용한 연도와 주 선택</h1>
+  	<form action="/examples/media/request.php">
+  		오늘이 이번 달의 몇 번째 주인지 선택해주세요! <br>
+  		<input type="week" name="nthweek">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87407394-0f298b00-c5fd-11ea-8bb5-e4f93718acc4.gif)
+
+#### 9. email(이메일 입력)
+
+- &lt;input&gt; 태그의 type 속성 값을 "email"로 설정하면, input 요소는 사용자가 email 주소를 입력할 수 있도록 해준다.
+
+- 브라우저 지원 여부에 따라 전송할 때 입력한 email 주소가 유효한 email 주소인지 자동으로 검사해준다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>email 타입을 이용한 email 주소 입력</h1>
+  	<form action="/examples/media/request.php">
+  		여러분의 이메일 주소를 입력해 주세요 :<br><br>
+  		<input type="email" name="email">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87408045-e950b600-c5fd-11ea-8461-788677fcac42.gif)
+
+#### 10. tel(전화번호 입력)
+
+- &lt;input&gt; 태그의 type 속성값을 "tel"로 설정하면, input 요소는 사용자가 전화번호를 입력할 수있도록 해준다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>tel 타입을 이용한 전화번호 입력</h1>
+  	<form action="/examples/media/request.php">
+  		여러분의 전화번호를 입력해 주세요 :<br><br>
+  		<input type="tel" name="tel">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87408732-dee2ec00-c5fe-11ea-9fc0-c1cb94fff585.gif)
+
+#### 11. url(URL 주소 입력)
+
+- &lt;input&gt; 태그의 type 속성값을 "url"로 설정하면, input 요소는 사용자가 URL 주소를 입력할 수 있도록 해준다.
+
+- 브라우저 지원 여부에 따라 전송할 때 입력한 URL 주소가 유효한 URL 주소인지 자동으로 검사한다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>url 타입을 이용한 URL 주소 입력</h1>
+  	<form action="/examples/media/request.php">
+  		TCPSchool의 URL 주소를 입력해 주세요 :<br><br>
+  		<input type="url" name="url">
+  		<input type="submit" value="전송"><br><br>
+  		("http://"까지 모두 정확히 입력해야 전송할 수 있습니다.)
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87408459-7267ed00-c5fe-11ea-97df-393b718519b5.gif)
+
+#### 12.  search(검색어 입력)
+
+- &lt;input&gt; 태그의 type 속성값을 "search"로 설정하면, input 요소는 사용자가 검색어를 입력할 수 있도록 해준다.
+
+- 이런 검색 필드는 보통 텍스트 필드(text field)와 동일하게 동작한다.
+
+- search 타입이 일반 text 타입과 다른 점은 입력 필드에 검색어를 입력하면, 입력 필드 우측에 입력된 검색어를 바로 삭제할 수 있는 X 표시가 생긴다는 점이다.
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>HTML5 Input Types</title>
+  </head>
+  <body>
+  	<h1>search 타입을 이용한 검색어 입력</h1>
+  	<form action="/examples/media/request.php">
+  		여러분이 평소에 가장 많이 찾아본 검색어를 입력해 주세요 :<br><br>
+  		<input type="search" name="keyword">
+  		<input type="submit" value="전송">
+  	</form>
+  </body>
+  </html>
+  ```
+
+  ![Untitled1](https://user-images.githubusercontent.com/58800295/87409101-6f213100-c5ff-11ea-964c-adcd805d4d39.gif)
+
+## 4. Input 요소의 속성
+
+### 1) input 요소의 속성
+
+- input 요소는 다양한 속성을 가질 수 있다.
+- HTML에서 자주 사용되는 input 요소의 대표적인 속성
+  1. value
+  2. readonly
+  3. disabled
+  4. maxlength
+  5. size
+
+### 2)  HTML5 form 요소의 속성
+
+- HTML5에서 새롭게 추가된 form 요소의 속성은 다음과 같다.
+  1. autocomplete
+  2. novalidate
+
+### 3)  HTML5 input 요소의 속성
+
+- HTML5에서 새롭게 추가된 input 요소의 속성은 다음과 같다.
+  1. autocomplete
+  2. autofocus
+  3. form
+  4. formaction
+  5. formenctype
+  6. formmethod
+  7. formnovalidate
+  8. formtarget
+  9. height and width
+  10. list
+  11. min and max
+  12. multiple
+  13. pattern
+  14. placeholder
+  15. required
+  16. step
+  17. 
