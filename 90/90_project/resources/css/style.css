@@ -9,8 +9,8 @@
 }
 
 html, body {
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #000;
@@ -19,6 +19,47 @@ html, body {
 /*-----------------------------------------------------*/
 /* 재사용 가능 모듈                                    */
 /*----------------------------------------------------*/
+
+h1 {
+    font-size: 35px;
+}
+
+.highlight-font{
+    color : #8b0000;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.active-font {
+    color : #ff7f00;
+    font-weight: 800;
+}
+
+.active-font:hover, .active-font:active{
+    color : #ffc489;
+}
+
+.active-font-thin {
+    color : #ff7f00;
+}
+
+.active-font-thin:hover, .active-font-thin:active{
+    color : #ffc489;
+}
+
+
+p{
+    font-size: 19px;
+}
+
+.footer-font {
+    color: rgb(92, 92, 92);
+}
+
+b{
+    color : #fff;
+    font-weight: 700;
+}
 
 /*-----------------------------------------------------*/
 /* 인트로 화면                                         */
@@ -33,8 +74,8 @@ html, body {
 
 .intro-box{
     position: absolute;
-    top : 40%;
-    left: 35%;
+    top : 35%;
+    left: 36%;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -45,6 +86,30 @@ html, body {
 .intro-img{
     width : 500px;
     margin-bottom: 15px;
+}
+
+.i-intro{
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.i-circle{
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.i-circle i:hover, .i-circle i:active{
+    color : #ff7f00;
+}
+
+.i-circle:hover, .i-circle:active{
+    border: 2px solid #ff7f00;
+    border-radius: 50%;
 }
 
 /*-----------------------------------------------------*/
@@ -74,17 +139,188 @@ header {
 .main-nav li {
     display: inline;
     margin-right : 10px;
+    font-weight: 700;
+}
+
+.main-nav li a:link,  .main-nav li a:visited {
+    padding : 22px 0px;
+    text-decoration: none;
+    color : rgb(92, 92, 92);
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color : #000;
+    border-bottom: 2px solid #ff7f00;
 }
 
 /*-----------------------------------------------------*/
-/* 헤더(네비게이션)                                    */
+/* 섹션                                                */
 /*----------------------------------------------------*/
 
-section {
-    background-color: yellow;
+/* 기본 설명 섹션 */
+.section-description {
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+    line-height: 200%;
 }
+
+/* 스플릿 카드 섹션 */
+
+.section-split-card{
+    margin: 100px 0px;
+}
+
+.split-card{
+    width: 60%;
+    margin-left: 20%;
+    line-height: 180%;
+    font-size: 20px;
+}
+
+.box--title1{
+    background-image: url(../image/base/box-background.jpg);
+    background-size: cover;
+    width: 60%;
+    float: right;
+    height: 550px;
+    line-height: 200%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color : #fff;
+    padding-top: 15%;
+
+}
+
+.box--title2{
+    background-image: url(http://90factory.com/images/backgrounds/pier.jpg);
+    background-size: cover;
+    width: 60%;
+    float: right;
+    height: 550px;
+    line-height: 200%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color : #fff;
+    padding-top: 15%;
+
+}
+
+.box--title3{
+    background-image: url(../image/base/box-background.jpg);
+    background-size: cover;
+    width: 60%;
+    float: right;
+    height: 650px;
+    line-height: 200%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color : #fff;
+    padding-top: 15%;
+
+}
+
+.left .box--title2 {
+    float: left;
+}
+
+.box--description1{
+    background-color: #fff;
+    width: 40%;
+    float: left;
+    height: 550px;
+    padding: 50px;
+}
+
+.box--description2{
+    background-color: #fff;
+    width: 40%;
+    float: left;
+    height: 550px;
+    padding: 50px;
+}
+
+.box--description3{
+    background-color: #fff;
+    width: 40%;
+    float: left;
+    height: 650px;
+    padding: 50px;
+}
+
+.left .box--description{
+    float: right;
+}
+
+/
+
+/*-----------------------------------------------------*/
+/* 푸터                                                */
+/*----------------------------------------------------*/
+
 
 footer {
-    background-color: green;
+    background-color: #333;
+    color : #cccccc;
+    height: 470px;
 
 }
+
+.footer-box{
+    display: inline;
+    margin-left: 300px;
+}
+
+.footer-logo {
+    padding-top: 50px;
+    width: 10%;
+    float: left;
+}
+
+.footer-info {
+    font-size: 20px;
+    word-break: keep-all;
+    padding-top: 40px;
+    width: 80%;
+    float: right;
+}
+
+.list-icon{
+    display: list-item;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.list-icon li i {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.list-icon li::before{
+    content: icon;
+}
+
+.list-icon li i::after {
+    content: "|";
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.footer-top{
+    height:400px;
+}
+
+.footer-bottom{
+    padding-top: 5px;
+    background-color: #212121;
+    font-size: 22px;
+    height: 70px;
+}
+
+.copyright{
+    color : #ff7f00;
+}
+
