@@ -16,11 +16,10 @@
     <section class="intro">
         <div class="intro-box">
             <img src="resources/image/base/logo-white.png" class="intro-img">
-            <br>상상을 현실로, 생각을 코드로<br>
-            당신의 인생을 바꿀 90일-<br>
-            <div class="i-intro">
-                <div class="i-circle"><i class="fa fa-2x fa-angle-double-down"></i></div>
-            </div>
+            <p>상상을 현실로, 생각을 코드로<br>
+                당신의 인생을 바꿀 90일-</p>
+            <br>
+                <a><i class="fa fa-2x fa-angle-double-down"></i></a>
         </div>
     </section>
 
@@ -30,7 +29,7 @@
                 <div class="col span-1-of-3">
                     <img src="resources/image/base/logo-dark-3-232x42.png" class="header-logo">
                 </div>
-                <div class="col span-1-of-3">
+                <div class="col span-2-of-3">
                     <ul class="main-nav">
                         <li><a href="">홈</a></li>
                         <li><a href="">소개</a></li>
@@ -144,7 +143,53 @@
                     </figure>
                 </li>
             </ul>
+
+            <ul class="space-gallery">
+                <li>
+                    <figure class="space-photo">
+                        <img src="/resources/image/gallery/pair.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-photo">
+                        <img src="/resources/image/gallery/conference.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-photo">
+                        <img src="/resources/image/gallery/plan.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
         </div>
+    </section>
+
+    <section class="section-contact">
+        <article class="article-contact">
+            <div class="row">
+                <div class="contact-title">
+                    <h4 class="active-font">구공팩토리에 대해 알고 싶어요</h4>
+                    <h1>문의하기</h1>
+                    카카오톡에서 '구공팩토리'를 검색해 보세요.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-4-of-5">
+                    <form method="POST" action="#" class="contact-form">
+                        <select name="contact-type" id="select-type">
+                            <option value="registration">등록 문의(비용, 결제 등)</option>
+                            <option value="education">교육 프로그램 문의</option>
+                            <option value="others">기타 문의</option>
+                        </select>
+                        <input type="text" name="username" id="username" placeholder="이름" required>
+                        <input type="text" name="email" id="email" placeholder="이메일 주소" required>
+                        <textarea name="message" placeholder="문의 내용"></textarea>
+                        <input type="submit" value="문의하기" class="btn">
+                    </form>
+
+                </div>
+            </div>
+        </article>
     </section>
 
     <footer>
