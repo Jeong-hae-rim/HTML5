@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+
+
+.box-container{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 80px;
+  }
+
+.logo-box { width: 100px; }
+
+
+.container .logo-box { flex-grow: 1; }
+.container .list-box { flex-grow: 2; }
+.container .item:nth-child(3) { flex-grow: 1; }
+
+.logo-item{
+    width: 100%;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.logo-item img {
+    width: 90%;
+}
+
+.list-box li {
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+}
+
+.list-box {
+    padding-top: 15px;
+    padding-left: 10%;
+}
+
+.list-item a:link, .list-item a:visited {
+    text-decoration: none;
+    color : rgb(92, 92, 92);
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 25px;
+    border-width: 3px 0;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.list-item li a:hover,
+.list-item li a:active {
+    color : #000;
+    border-bottom-color: #ff7f00;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border-bottom-color 500ms ease-out;
+}
+
+/* 재사용 가능 모듈 */
+
+h3{
+    color: #333;
+}
+
+p{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.active-font {
+    color : #ff7f00;
+    font-weight: 800;
+}
+
+.active-font:hover, .active-font:active{
+    color : #ffc489;
+    transition: color 0.5s;
+}
+
+.active-font-thin {
+    color : #ff7f00;
+}
+
+.active-font-thin:hover, .active-font-thin:active{
+    color : #ffc489;
+    transition: color 0.5s;
+}
+
+/* 섹션 */
+
+.section-box{
+    width:100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.section-box .section-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top : 100px;
+    
+}
+
+.section-title{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+.item1{
+    width: 100%;
+    height: 400px;
+}
+
+.item3{
+    width: 100%;
+    height: 400px;
+}
+
+.item6{
+    width: 100%;
+    height: 300px;
+}
+
+.item1 .project-info, .item3 .project-info, .item6 .project-info {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.item1 .project-img, .item3 .project-img, .item6 .project-img {
+    float: right;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.project-img img{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+.img3 img{
+    height: 80%;
+    margin-top: 5%;
+}
+
+.project-title{
+    border: 3px solid #ff7f00;
+    background-color: #ff7f00;
+    border-radius: 40px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.title2{
+    height: 25px;
+    font-size: 20px;
+}
+
+.project-sub{
+    padding: 10px;
+    line-height: 160%;
+    font-size: 20px;
+
+}
+
+.hash-tag{
+    border: 1px solid #f8aa5c;
+    background-color: #f8aa5c;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.lan-tag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.project-sub a {
+    text-decoration: none;
+    color:#ff7f00;
+}
+
+.project-sub a:hover,
+.project-sub a:visited {
+    text-decoration: none;
+    color:#f8aa5c;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : color 500ms ease-out;
+}
+
+/*-----------------------------------------------------*/
+/* 푸터                                                */
+/*----------------------------------------------------*/
+
+
+footer {
+    background-color: #333;
+    color : #cccccc;
+    height: 470px;
+    margin-top: 100px;
+
+}
+
+.footer-box{
+    display: inline;
+    margin-left: 300px;
+}
+
+.footer-logo {
+    padding-top: 70px;
+    width: 10%;
+    float: left;
+}
+
+.footer-info {
+    font-size: 15px;
+    word-break: keep-all;
+    padding-top: 40px;
+    width: 80%;
+    float: right;
+}
+
+.list-icon{
+    display: list-item;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.list-icon li i {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.list-icon li::before{
+    content: icon;
+}
+
+.list-icon li i::after {
+    content: "|";
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.footer-top{
+    height:400px;
+}
+
+.footer-bottom{
+    padding-top: 5px;
+    background-color: #212121;
+    font-size: 15px;
+    height: 70px;
+}
+
+.copyright{
+    color : #ff7f00;
+}
